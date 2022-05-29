@@ -1,20 +1,11 @@
-S = Math.PI;
-H = 20;
-R = 10;
-V = S * Math.pow(10, 2) * H;
+radius = 10;
+height = 20;
+area = Math.PI * radius * radius;
+volume = area * height;
 
-line = "--------------------";
-
-a = "Объем цилиндра с площадью основы S =";
-b = "радиусом R =";
-c = "и высотой H =";
-d = "равен:";
-e = "V = ";
-f = "end.";
-
-console.log("********************");
-console.log(a, S, b, R, c, H, d );
-console.log(line);
-console.log(e, V);
-console.log(line);
-console.log(f);
+console.log("**************");
+console.log("Обьем цилиндра с площадью основы S = " + area + ", радиусом R = " + radius + " и высотой H = " + height + " равен:");
+console.log("--------------------");
+console.log("V = " + volume);
+console.log("-------------------");
+console.log("end.");
